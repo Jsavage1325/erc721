@@ -1,3 +1,7 @@
+# Project Description
+
+A simple interface to interact with the ethereum ETL data stored in public Google BigQuery datasets. Requires a GCP Project to interact with the data.
+
 # Setup and Installation
 
 Firstly you must have set up a GCP project to interact with the public google BigQuery datasets using Python. To do this follow the instructions located under quick setup [here](https://pypi.org/project/google-cloud-bigquery/).
