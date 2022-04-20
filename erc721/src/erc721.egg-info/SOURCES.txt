@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+erc721/src/erc721.egg-info/PKG-INFO
+erc721/src/erc721.egg-info/SOURCES.txt
+erc721/src/erc721.egg-info/dependency_links.txt
+erc721/src/erc721.egg-info/top_level.txt
