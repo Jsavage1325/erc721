@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="erc721",                     # This is the name of the package
-    version="0.0.1",                        # The initial release version
+    version="0.0.2",                        # The initial release version
     author="Jeremy Savage",                     # Full name of the author
     description="A Python library for interacting with the public google BigQuery datasets to extract ERC721 token data.",
     long_description=long_description,      # Long description read from the the readme file
