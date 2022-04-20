@@ -54,7 +54,7 @@ def get_all_sales(all_data=None, collection_address=None):
         all_erc721_sales = all_data[all_data["ether"] == 0]
         return all_erc721_sales
     if collection_address:
-        all_data = get_all_collection_transfers
+        all_data = get_all_collection_transfers_sql(collection_address)
         all_erc721_sales = all_data[all_data["ether"] == 0]
         return all_erc721_sales
     return "Either all_data or collection_address must not be null."
@@ -89,7 +89,3 @@ def get_all_sales_and_transfers(collection_address):
     all_erc721_sales = get_all_sales(all_data, None)
     all_erc721_transfers = get_all_transfers(all_data, None)
     return all_erc721_sales, all_erc721_transfers
-    
-        
-data = get_all_collection_transfers_sql("0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2")
-print(data.head())
