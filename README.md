@@ -3,10 +3,10 @@
 Firstly you must have set up a GCP project to interact with the public google BigQuery datasets using Python. To do this follow the instructions located under quick setup [here](https://pypi.org/project/google-cloud-bigquery/).
 
 
-Next, create a venv and install the requirements from the requirements.txt file.
+Next, install this module from PyPi.
 
 ```
-pip install -r requirements.txt
+pip install erc721
 ```
 
 That's it, once this is setup you should be able to interact with the provided functions.
