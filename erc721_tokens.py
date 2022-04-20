@@ -89,3 +89,4 @@ def get_all_sales_and_transfers(collection_address):
     all_erc721_sales = get_all_sales(all_data, None)
     all_erc721_transfers = get_all_transfers(all_data, None)
     return all_erc721_sales, all_erc721_transfers
+
