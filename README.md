@@ -27,6 +27,8 @@ This fetches all of the transfers and sales for a single ERC721 token. For examp
 
 This will extract all of the sales and transfer data for that desired collection and return it as a pandas dataframe.
 
+Additionally a highwatermark (of the blocknumber) can be passed to this function to allow for faster batch processing from past that point only. The function will return a second value which is a new highwatermark of the highest block number returned.
+
 ```python
 get_all_sales(all_data=None, collection_address=None)
 ```
